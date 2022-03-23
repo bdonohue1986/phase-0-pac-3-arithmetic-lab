@@ -1,0 +1,353 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 15,
+    "passes": 8,
+    "pending": 0,
+    "failures": 7,
+    "start": "2022-03-23T15:53:54.735Z",
+    "end": "2022-03-23T15:53:54.874Z",
+    "duration": 139
+  },
+  "tests": [
+    {
+      "title": "'add()' is a valid function",
+      "fullTitle": "basic math functions 'add()' is a valid function",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "'subtract()' is a valid function",
+      "fullTitle": "basic math functions 'subtract()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "'multiply()' is a valid function",
+      "fullTitle": "basic math functions 'multiply()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "'divide()' is a valid function",
+      "fullTitle": "basic math functions 'divide()' is a valid function",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "add(a, b) adds two numbers and returns the result",
+      "fullTitle": "basic math functions add(a, b) adds two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "subtract(a, b) subtracts b from a and returns the result",
+      "fullTitle": "basic math functions subtract(a, b) subtracts b from a and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "multiply(a, b) multiplies two numbers and returns the result",
+      "fullTitle": "basic math functions multiply(a, b) multiplies two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "divide(a, b) divides a by b and returns the result",
+      "fullTitle": "basic math functions divide(a, b) divides a by b and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "increment(n) increments n and returns the result",
+      "fullTitle": "basic math functions increment(n) increments n and returns the result",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 278 to equal 269\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:42:26)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Expected 278 to equal 269",
+        "actual": "278",
+        "expected": "269",
+        "showDiff": true,
+        "multiple": [
+          {
+            "actual": "278",
+            "expected": "269",
+            "showDiff": true,
+            "multiple": "Error: Expected 278 to equal 269"
+          }
+        ]
+      }
+    },
+    {
+      "title": "decrement(n) decrements n and returns the result",
+      "fullTitle": "basic math functions decrement(n) decrements n and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: decrement is not defined\n    at Context.<anonymous> (test/index-test.js:46:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "decrement is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: decrement is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "parses n as an integer and returns the parsed integer",
+      "fullTitle": "makeInt(n) parses n as an integer and returns the parsed integer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/index-test.js:55:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "assumes base 10",
+      "fullTitle": "makeInt(n) assumes base 10",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/index-test.js:59:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "makeInt(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/index-test.js:63:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "fullTitle": "preserveDecimal(n) preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/index-test.js:69:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "preserveDecimal(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/index-test.js:73:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "increment(n) increments n and returns the result",
+      "fullTitle": "basic math functions increment(n) increments n and returns the result",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 278 to equal 269\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:42:26)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Expected 278 to equal 269",
+        "actual": "278",
+        "expected": "269",
+        "showDiff": true,
+        "multiple": [
+          {
+            "actual": "278",
+            "expected": "269",
+            "showDiff": true,
+            "multiple": "Error: Expected 278 to equal 269"
+          }
+        ]
+      }
+    },
+    {
+      "title": "decrement(n) decrements n and returns the result",
+      "fullTitle": "basic math functions decrement(n) decrements n and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: decrement is not defined\n    at Context.<anonymous> (test/index-test.js:46:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "decrement is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: decrement is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "parses n as an integer and returns the parsed integer",
+      "fullTitle": "makeInt(n) parses n as an integer and returns the parsed integer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/index-test.js:55:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "assumes base 10",
+      "fullTitle": "makeInt(n) assumes base 10",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/index-test.js:59:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "makeInt(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/index-test.js:63:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "fullTitle": "preserveDecimal(n) preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/index-test.js:69:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "preserveDecimal(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/index-test.js:73:5)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "'add()' is a valid function",
+      "fullTitle": "basic math functions 'add()' is a valid function",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "'subtract()' is a valid function",
+      "fullTitle": "basic math functions 'subtract()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "'multiply()' is a valid function",
+      "fullTitle": "basic math functions 'multiply()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "'divide()' is a valid function",
+      "fullTitle": "basic math functions 'divide()' is a valid function",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "add(a, b) adds two numbers and returns the result",
+      "fullTitle": "basic math functions add(a, b) adds two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "subtract(a, b) subtracts b from a and returns the result",
+      "fullTitle": "basic math functions subtract(a, b) subtracts b from a and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "multiply(a, b) multiplies two numbers and returns the result",
+      "fullTitle": "basic math functions multiply(a, b) multiplies two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "divide(a, b) divides a by b and returns the result",
+      "fullTitle": "basic math functions divide(a, b) divides a by b and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
